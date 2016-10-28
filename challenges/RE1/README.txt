@@ -1,6 +1,6 @@
 What you have to do is extract the flag from the
 binary RE1.o. The methods to reach it may or may not involve:
-cati
+cat
 radare #db sym.main,dc,ds,pd N,?
 ltrace -s
 strace 

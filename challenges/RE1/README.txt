@@ -1,12 +1,13 @@
-what you have to do is extract the flag from the
-binary RE1.o the methods to reach it may or may not involve:
-cat
+What you have to do is extract the flag from the
+binary RE1.o. The methods to reach it may or may not involve:
+cati
 radare #db sym.main,dc,ds,pd N,?
 ltrace -s
 strace 
 objdump -ds
 file
 strings
+These hints are in no particular order.
 
 The source code is encrypted with the flag, decrypting the source code is not your goal.
 The python script will decrypt the source code if it is given a file with the flag in it,
